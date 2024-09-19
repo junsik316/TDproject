@@ -10,9 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5660979680821081751}
   - component: {fileID: 5585437474909470808}
-  m_Layer: 0
+  - component: {fileID: -7041728338349086354}
+  - component: {fileID: -4489810883456506614}
+  - component: {fileID: -5579136890898262428}
+  m_Layer: 6
   m_Name: UFO(1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1623453743
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f2728ae8e64279c448dd84d9d4d74a2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -84,3 +87,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-7041728338349086354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221377769072949053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0fd4e35758ba04bbee5d5dcf5f14e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 1386691208735305512, guid: e9bda1e8089e86e4ab410b39ba9c3adc, type: 3}
+  - {fileID: 5396731570934901785, guid: 08c162f883b6e0c4688b7753efa41ceb, type: 3}
+  - {fileID: 6307089604036637678, guid: 9ba6d8bf87e76f04a90e12ec3bc6be3f, type: 3}
+  - {fileID: 8221289282977558153, guid: 77a8bf0cbca1330428db4bd85fa0892f, type: 3}
+  - {fileID: 5073394054256192663, guid: 1395440f61689df4cb90c469126cb935, type: 3}
+  - {fileID: 6908539764784053582, guid: 1edc6abc44b089e4da2f1be465619d83, type: 3}
+  - {fileID: 5984210281616513490, guid: 0373ffdf7e5ca8d44ade2aa113a583d0, type: 3}
+  - {fileID: 50245501502925510, guid: fa92a315f5e4cc74297f626c8c8205f9, type: 3}
+  - {fileID: 1429163093852559918, guid: a8d266480cecfbc4299d497cb059ea4d, type: 3}
+  - {fileID: 6254457773573557123, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
+  curNum: 0
+--- !u!50 &-4489810883456506614
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221377769072949053}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &-5579136890898262428
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221377769072949053}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1

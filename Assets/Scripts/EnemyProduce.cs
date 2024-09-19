@@ -3,19 +3,27 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+
 public class WayPoint : MonoBehaviour
 {
+
+    public float time;
     public GameObject Enemy;
     // Start is called before the first frame update
-    void Update()
+    void Awake()
     {
         StartCoroutine("EnemyMake");
     }
 
     // Update is called once per frame
-    IEnumerator EnemyMake(IEnumerator e)
+    IEnumerator EnemyMake()
     {
-        Instantiate(Enemy);
-        yield return new WaitForSeconds(3f);
+        while (true) 
+        {
+            Instantiate(Enemy);
+            
+            yield return new WaitForSeconds(time);
+        }
+        
     }
 }
