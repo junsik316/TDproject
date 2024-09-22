@@ -5,13 +5,14 @@ using UnityEngine.EventSystems;
 
 public class TowerBuild : MonoBehaviour,IPointerClickHandler
 { 
-    private string Types;
+    private int Types;
     private Vector3 BuildPos;
-    public GameObject Tower;
+    public GameObject[] Tower;
     private Quaternion rotation;
+    public GameObject towerPoints;
     // Start is called before the first frame update
 
-    public void Getdata(string data)
+    public void Getdata(int data)
     {
         Types = data;
     }
@@ -24,11 +25,19 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
     {
         //타워 맵에 배치
         Debug.Log(Types);
-        Instantiate(Tower, BuildPos,rotation);
+        Instantiate(Tower[Types], BuildPos,rotation);
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         Build();
+    }
+    private void OnEnable()
+    {
+        towerPoints.SetActive(false);
+    }
+    private void OnDisable()
+    {
+        towerPoints.SetActive(true);
     }
 }

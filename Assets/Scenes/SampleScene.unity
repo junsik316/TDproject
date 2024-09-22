@@ -923,7 +923,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318, y: 205}
+  m_AnchoredPosition: {x: 817, y: 392}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258590452
@@ -1061,6 +1061,8 @@ Transform:
   - {fileID: 1960702854}
   - {fileID: 921743705}
   - {fileID: 51093064}
+  - {fileID: 2138137666}
+  - {fileID: 1022768066}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &301558462 stripped
@@ -1260,7 +1262,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1236405401}
   m_HandleRect: {fileID: 1236405400}
   m_Direction: 0
-  m_Value: 0.02800087
+  m_Value: 0.028000874
   m_Size: 0.5509906
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1341,7 +1343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 71.055, y: -236.0309}
+  m_AnchoredPosition: {x: 71.055, y: -460}
   m_SizeDelta: {x: 982.89, y: 148.9381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &455262552
@@ -1710,13 +1712,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1888558377}
         m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
         m_MethodName: Getdata
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: Wizrad
+          m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 258590452}
@@ -1969,8 +1971,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -381, y: 266.75}
-  m_SizeDelta: {x: 78.7807, y: 81.1381}
+  m_AnchoredPosition: {x: -868.73096, y: 444.18567}
+  m_SizeDelta: {x: 131.3188, y: 136.7667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573523094
 MonoBehaviour:
@@ -2800,13 +2802,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1888558377}
         m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
         m_MethodName: Getdata
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
-          m_StringArgument: Knight
+          m_StringArgument: 3
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 258590452}
@@ -4200,6 +4202,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008439694}
   m_CullTransparentMesh: 1
+--- !u!1 &1022768065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022768066}
+  - component: {fileID: 1022768068}
+  - component: {fileID: 1022768067}
+  m_Layer: 0
+  m_Name: TowerPoint (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1022768066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022768065}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.174, y: 0.358, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 293748700}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1022768067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022768065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec8b9a5d1b3af8428ce88438b815f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1656423070}
+  IsUIOpened: 0
+  Onclick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetPos
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!58 &1022768068
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022768065}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1031113152
 GameObject:
   m_ObjectHideFlags: 0
@@ -10819,13 +10918,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1888558377}
         m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
         m_MethodName: Getdata
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
-          m_StringArgument: BlackSmith
+          m_StringArgument: 4
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 258590452}
@@ -14196,13 +14295,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1888558377}
         m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
         m_MethodName: Getdata
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Archer
+          m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 258590452}
@@ -14723,7 +14822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: -123.54923}
+  m_AnchoredPosition: {x: 8, y: -326}
   m_SizeDelta: {x: 225.4304, y: 63.2298}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888558374
@@ -14832,7 +14931,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e3b34fa5e72f84da139a09f0d3ce8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tower: {fileID: 3616022279816070222, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+  Tower:
+  - {fileID: 3616022279816070222, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+  - {fileID: 6755702829193996795, guid: 5dd14e5a77b91644a9c2217235c32193, type: 3}
+  - {fileID: 5173459545262794192, guid: a251804374b05e7428aaaa796b551fe4, type: 3}
+  - {fileID: 4542928099239262912, guid: fa6c13137b86cc34697e1a43716e22f5, type: 3}
+  - {fileID: 9169092785209830609, guid: 11c47ee25b5d2a343b78c774517ad8d8, type: 3}
+  towerPoints: {fileID: 293748699}
 --- !u!1 &1889799376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1713214703725991397, guid: 1edc6abc44b089e4da2f1be465619d83, type: 3}
@@ -15057,13 +15162,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1888558377}
         m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
         m_MethodName: Getdata
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: Barrack
+          m_StringArgument: 2
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 258590452}
@@ -15907,6 +16012,103 @@ CircleCollider2D:
   m_Offset: {x: -0.019422233, y: -0.04612802}
   serializedVersion: 2
   m_Radius: 0.1868146
+--- !u!1 &2138137665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138137666}
+  - component: {fileID: 2138137668}
+  - component: {fileID: 2138137667}
+  m_Layer: 0
+  m_Name: TowerPoint (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2138137666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138137665}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.32, y: -4.69, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 293748700}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138137667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138137665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aec8b9a5d1b3af8428ce88438b815f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 1656423070}
+  IsUIOpened: 0
+  Onclick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetPos
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!58 &2138137668
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138137665}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &2146453391
 GameObject:
   m_ObjectHideFlags: 0
