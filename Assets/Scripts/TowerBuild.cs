@@ -38,6 +38,7 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
     }
     private void OnDisable()
     {
+        if(towerPoints == null) return;
         towerPoints.SetActive(true);
     }
 }
