@@ -103,8 +103,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1687900255911961656, guid: 38e931d5b3d00b04c8f4caa1b4b1fcd7, type: 3}
         m_TargetAssemblyTypeName: Arrow, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 0
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -121,7 +121,7 @@ MonoBehaviour:
   AttackTime: 1
   AttackDamage: 10
   Arrow: {fileID: 5015410357238372202, guid: 38e931d5b3d00b04c8f4caa1b4b1fcd7, type: 3}
-  Target: {fileID: -5579136890898262428, guid: 972f19cc4e698774c9c0807aa501cc09, type: 3}
+  Target: {fileID: 0}
 --- !u!1 &8669463157330937580
 GameObject:
   m_ObjectHideFlags: 0
