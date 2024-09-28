@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -7041728338349086354}
   - component: {fileID: -4489810883456506614}
   - component: {fileID: -5579136890898262428}
+  - component: {fileID: -8153562439936851622}
   m_Layer: 6
   m_Name: UFO(1)
   m_TagString: Enemy
@@ -99,6 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0fd4e35758ba04bbee5d5dcf5f14e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyHealth: 50
   waypoints:
   - {fileID: 1386691208735305512, guid: e9bda1e8089e86e4ab410b39ba9c3adc, type: 3}
   - {fileID: 5396731570934901785, guid: 08c162f883b6e0c4688b7753efa41ceb, type: 3}
@@ -111,6 +113,7 @@ MonoBehaviour:
   - {fileID: 1429163093852559918, guid: a8d266480cecfbc4299d497cb059ea4d, type: 3}
   - {fileID: 6254457773573557123, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
   curNum: 0
+  Endpoint: {fileID: 0}
 --- !u!50 &-4489810883456506614
 Rigidbody2D:
   serializedVersion: 4
@@ -173,3 +176,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
+--- !u!114 &-8153562439936851622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221377769072949053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541be4550b4a98f42bb2aeff5ccd3603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Maxhealth: 50
+  Curhealth: 0

@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public int EnemyHealth;
     public Transform[] waypoints;
     private int waypointNum;
     [SerializeField]private int curNum;
+    public GameObject Endpoint;
     private void Awake()
     {
+
         curNum = 0;
         waypointNum = waypoints.Length;
         transform.position = waypoints[curNum].position;
@@ -37,7 +40,7 @@ public class EnemyMovement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "WayPoint")
+        if (collision.gameObject.tag == "WayPoint"|| collision.gameObject.tag == "Home")
         {
             WayPointSetup();
         }

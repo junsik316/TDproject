@@ -10,7 +10,13 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
     public GameObject[] Tower;
     private Quaternion rotation;
     public GameObject towerPoints;
+    public GameObject BuildPoint;
     // Start is called before the first frame update
+    public void GetBuildTarget(GameObject go)
+    {
+        BuildPoint = go;
+    }
+
 
     public void Getdata(int data)
     {
@@ -26,6 +32,7 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
         //타워 맵에 배치
         Debug.Log(Types);
         Instantiate(Tower[Types], BuildPos,rotation);
+        BuildPoint.gameObject.SetActive(false);
     }
 
     public void OnPointerClick(PointerEventData eventData)

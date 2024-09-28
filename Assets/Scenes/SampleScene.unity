@@ -219,6 +219,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1715725}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &40012648
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +242,7 @@ GameObject:
   - component: {fileID: 40012649}
   - component: {fileID: 40012651}
   - component: {fileID: 40012650}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,6 +462,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 51093061}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &84244456
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +486,7 @@ GameObject:
   - component: {fileID: 84244460}
   - component: {fileID: 84244459}
   - component: {fileID: 84244458}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +612,7 @@ GameObject:
   - component: {fileID: 168511000}
   - component: {fileID: 168510999}
   - component: {fileID: 168510998}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Wiztooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,6 +805,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 175969027}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &189136136 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5488163414662300988, guid: 08c162f883b6e0c4688b7753efa41ceb, type: 3}
@@ -822,7 +858,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 202766730}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203929325}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -895,7 +931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258590451}
   - component: {fileID: 258590452}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Tooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 361855342}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1116,7 +1152,7 @@ GameObject:
   - component: {fileID: 384351752}
   - component: {fileID: 384351754}
   - component: {fileID: 384351753}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1192,7 +1228,7 @@ GameObject:
   - component: {fileID: 424981837}
   - component: {fileID: 424981836}
   - component: {fileID: 424981835}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1318,7 +1354,7 @@ GameObject:
   - component: {fileID: 455262554}
   - component: {fileID: 455262553}
   - component: {fileID: 455262552}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TowerList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1426,7 +1462,7 @@ GameObject:
   - component: {fileID: 456950111}
   - component: {fileID: 456950110}
   - component: {fileID: 456950109}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: KniTooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1620,6 +1656,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 465606429}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &476536733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6467828666794583171, guid: 1395440f61689df4cb90c469126cb935, type: 3}
@@ -1637,7 +1685,7 @@ GameObject:
   - component: {fileID: 501923305}
   - component: {fileID: 501923304}
   - component: {fileID: 501923303}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Wizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1872,7 +1920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 539044087}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1908,7 +1956,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 557686089}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1948,7 +1996,7 @@ GameObject:
   - component: {fileID: 573523095}
   - component: {fileID: 573523094}
   - component: {fileID: 573523097}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2166,6 +2214,75 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 575496248}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1001 &581567755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3616022279816070222, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_Name
+      value: archer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.205921
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.34543777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273106616861718141, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0112d0523d92538478c0e8982e7c8bab, type: 3}
 --- !u!1 &586049871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,7 +2294,7 @@ GameObject:
   - component: {fileID: 586049872}
   - component: {fileID: 586049874}
   - component: {fileID: 586049873}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2250,7 +2367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 590403685}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2374,6 +2491,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 595937507}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &609359686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,7 +2514,7 @@ GameObject:
   - component: {fileID: 609359687}
   - component: {fileID: 609359689}
   - component: {fileID: 609359688}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2460,7 +2589,7 @@ GameObject:
   - component: {fileID: 669219355}
   - component: {fileID: 669219357}
   - component: {fileID: 669219356}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,7 +2721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 670749040}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2715,6 +2844,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 680130907}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &689337007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,7 +2868,7 @@ GameObject:
   - component: {fileID: 689337011}
   - component: {fileID: 689337010}
   - component: {fileID: 689337009}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2873,7 +3014,7 @@ GameObject:
   - component: {fileID: 714986038}
   - component: {fileID: 714986037}
   - component: {fileID: 714986036}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2963,7 +3104,7 @@ GameObject:
   - component: {fileID: 740171807}
   - component: {fileID: 740171806}
   - component: {fileID: 740171805}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Arctooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3071,7 +3212,7 @@ GameObject:
   - component: {fileID: 834569249}
   - component: {fileID: 834569248}
   - component: {fileID: 834569247}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3160,7 +3301,7 @@ GameObject:
   - component: {fileID: 837381526}
   - component: {fileID: 837381528}
   - component: {fileID: 837381527}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3297,7 +3438,7 @@ GameObject:
   - component: {fileID: 846018937}
   - component: {fileID: 846018936}
   - component: {fileID: 846018935}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3384,7 +3525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 894008128}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3423,7 +3564,7 @@ GameObject:
   - component: {fileID: 894975150}
   - component: {fileID: 894975149}
   - component: {fileID: 894975148}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3549,7 +3690,7 @@ GameObject:
   - component: {fileID: 920923569}
   - component: {fileID: 920923568}
   - component: {fileID: 920923567}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3760,6 +3901,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 921743702}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &936834904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3771,7 +3924,7 @@ GameObject:
   - component: {fileID: 936834905}
   - component: {fileID: 936834907}
   - component: {fileID: 936834906}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3905,7 +4058,7 @@ GameObject:
   - component: {fileID: 979018771}
   - component: {fileID: 979018773}
   - component: {fileID: 979018772}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4127,6 +4280,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 991799860}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1008439694
 GameObject:
   m_ObjectHideFlags: 0
@@ -4138,7 +4303,7 @@ GameObject:
   - component: {fileID: 1008439695}
   - component: {fileID: 1008439697}
   - component: {fileID: 1008439696}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4259,6 +4424,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1022768065}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4396,6 +4573,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1031113152}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1031420603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8478651483495078956, guid: a8d266480cecfbc4299d497cb059ea4d, type: 3}
@@ -4413,7 +4602,7 @@ GameObject:
   - component: {fileID: 1040419792}
   - component: {fileID: 1040419791}
   - component: {fileID: 1040419790}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4539,7 +4728,7 @@ GameObject:
   - component: {fileID: 1041982799}
   - component: {fileID: 1041982798}
   - component: {fileID: 1041982797}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BlaTooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4682,7 +4871,7 @@ GameObject:
   - component: {fileID: 1095430927}
   - component: {fileID: 1095430929}
   - component: {fileID: 1095430928}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4843,6 +5032,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1099084443}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1105934045 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3434165805704654322, guid: e9bda1e8089e86e4ab410b39ba9c3adc, type: 3}
@@ -4860,7 +5061,7 @@ GameObject:
   - component: {fileID: 1147457157}
   - component: {fileID: 1147457156}
   - component: {fileID: 1147457155}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10055,7 +10256,7 @@ GameObject:
   - component: {fileID: 1236405400}
   - component: {fileID: 1236405402}
   - component: {fileID: 1236405401}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10130,7 +10331,7 @@ GameObject:
   - component: {fileID: 1246929743}
   - component: {fileID: 1246929745}
   - component: {fileID: 1246929744}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10203,7 +10404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1270228577}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10241,7 +10442,7 @@ GameObject:
   - component: {fileID: 1275321960}
   - component: {fileID: 1275321962}
   - component: {fileID: 1275321961}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10357,7 +10558,7 @@ GameObject:
   - component: {fileID: 1343876293}
   - component: {fileID: 1343876292}
   - component: {fileID: 1343876291}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10482,7 +10683,7 @@ GameObject:
   - component: {fileID: 1387272949}
   - component: {fileID: 1387272951}
   - component: {fileID: 1387272950}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10557,7 +10758,7 @@ GameObject:
   - component: {fileID: 1404057352}
   - component: {fileID: 1404057354}
   - component: {fileID: 1404057353}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10661,6 +10862,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1415319015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415319012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541be4550b4a98f42bb2aeff5ccd3603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Maxhealth: 1000
+  Curhealth: 0
 --- !u!1 &1416505695
 GameObject:
   m_ObjectHideFlags: 0
@@ -10672,7 +10887,7 @@ GameObject:
   - component: {fileID: 1416505696}
   - component: {fileID: 1416505698}
   - component: {fileID: 1416505697}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10804,7 +11019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1419174265}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10843,7 +11058,7 @@ GameObject:
   - component: {fileID: 1454538830}
   - component: {fileID: 1454538829}
   - component: {fileID: 1454538828}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BlackSmith
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11070,7 +11285,7 @@ GameObject:
   - component: {fileID: 1500558354}
   - component: {fileID: 1500558353}
   - component: {fileID: 1500558352}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11159,7 +11374,7 @@ GameObject:
   - component: {fileID: 1512275756}
   - component: {fileID: 1512275758}
   - component: {fileID: 1512275757}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13444,7 +13659,7 @@ GameObject:
   - component: {fileID: 1547672266}
   - component: {fileID: 1547672265}
   - component: {fileID: 1547672264}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13569,7 +13784,7 @@ GameObject:
   - component: {fileID: 1557292401}
   - component: {fileID: 1557292403}
   - component: {fileID: 1557292402}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13644,7 +13859,7 @@ GameObject:
   - component: {fileID: 1625373193}
   - component: {fileID: 1625373195}
   - component: {fileID: 1625373194}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13720,7 +13935,7 @@ GameObject:
   - component: {fileID: 1656423073}
   - component: {fileID: 1656423072}
   - component: {fileID: 1656423071}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BuildUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13910,6 +14125,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1712608607}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1713400600
 GameObject:
   m_ObjectHideFlags: 0
@@ -13921,7 +14148,7 @@ GameObject:
   - component: {fileID: 1713400601}
   - component: {fileID: 1713400603}
   - component: {fileID: 1713400602}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13997,7 +14224,7 @@ GameObject:
   - component: {fileID: 1726688887}
   - component: {fileID: 1726688886}
   - component: {fileID: 1726688885}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14208,6 +14435,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1744577117}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1752833794
 GameObject:
   m_ObjectHideFlags: 0
@@ -14220,7 +14459,7 @@ GameObject:
   - component: {fileID: 1752833798}
   - component: {fileID: 1752833797}
   - component: {fileID: 1752833796}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Archer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14398,7 +14637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1801602619}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14526,6 +14765,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1842966582}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1858783949
 GameObject:
   m_ObjectHideFlags: 0
@@ -14535,7 +14786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858783950}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14659,6 +14910,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1868553006}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1876495153
 GameObject:
   m_ObjectHideFlags: 0
@@ -14671,7 +14934,7 @@ GameObject:
   - component: {fileID: 1876495157}
   - component: {fileID: 1876495156}
   - component: {fileID: 1876495155}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14798,7 +15061,7 @@ GameObject:
   - component: {fileID: 1888558375}
   - component: {fileID: 1888558374}
   - component: {fileID: 1888558377}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BuildButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14938,6 +15201,7 @@ MonoBehaviour:
   - {fileID: 4542928099239262912, guid: fa6c13137b86cc34697e1a43716e22f5, type: 3}
   - {fileID: 9169092785209830609, guid: 11c47ee25b5d2a343b78c774517ad8d8, type: 3}
   towerPoints: {fileID: 293748699}
+  BuildPoint: {fileID: 0}
 --- !u!1 &1889799376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1713214703725991397, guid: 1edc6abc44b089e4da2f1be465619d83, type: 3}
@@ -15075,6 +15339,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1916693231}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1943502136
 GameObject:
   m_ObjectHideFlags: 0
@@ -15087,7 +15363,7 @@ GameObject:
   - component: {fileID: 1943502140}
   - component: {fileID: 1943502139}
   - component: {fileID: 1943502138}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Barrack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15318,6 +15594,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1960702851}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1981204502
 GameObject:
   m_ObjectHideFlags: 0
@@ -15327,7 +15615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1981204503}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15400,7 +15688,7 @@ GameObject:
   - component: {fileID: 2006551886}
   - component: {fileID: 2006551888}
   - component: {fileID: 2006551887}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15561,6 +15849,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2008004701}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2026359330
 GameObject:
   m_ObjectHideFlags: 0
@@ -15570,7 +15870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2026359331}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15693,6 +15993,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2039451036}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2051791605
 GameObject:
   m_ObjectHideFlags: 0
@@ -15702,7 +16014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2051791606}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15741,7 +16053,7 @@ GameObject:
   - component: {fileID: 2091161795}
   - component: {fileID: 2091161794}
   - component: {fileID: 2091161793}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BarTooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15849,7 +16161,7 @@ GameObject:
   - component: {fileID: 2109834770}
   - component: {fileID: 2109834772}
   - component: {fileID: 2109834771}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP) (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16074,6 +16386,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888558377}
+        m_TargetAssemblyTypeName: TowerBuild, Assembly-CSharp
+        m_MethodName: GetBuildTarget
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2138137665}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!58 &2138137668
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16121,7 +16445,7 @@ GameObject:
   - component: {fileID: 2146453395}
   - component: {fileID: 2146453394}
   - component: {fileID: 2146453393}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16264,6 +16588,10 @@ PrefabInstance:
       value: WayPoint (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8478651483495078956, guid: a8d266480cecfbc4299d497cb059ea4d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478651483495078956, guid: a8d266480cecfbc4299d497cb059ea4d, type: 3}
       propertyPath: m_TagString
       value: WayPoint
       objectReference: {fileID: 0}
@@ -16288,8 +16616,12 @@ PrefabInstance:
       value: EndPoint
       objectReference: {fileID: 0}
     - target: {fileID: 2382046060344117055, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382046060344117055, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
       propertyPath: m_TagString
-      value: WayPoint
+      value: Home
       objectReference: {fileID: 0}
     - target: {fileID: 6254457773573557123, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
       propertyPath: m_LocalScale.x
@@ -16350,6 +16682,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2382046060344117055, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1415319013}
+    - targetCorrespondingSourceObject: {fileID: 2382046060344117055, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1415319015}
   m_SourcePrefab: {fileID: 100100000, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
 --- !u!1001 &2061060587960688383
 PrefabInstance:
@@ -16416,6 +16751,10 @@ PrefabInstance:
       value: WayPoint (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6467828666794583171, guid: 1395440f61689df4cb90c469126cb935, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467828666794583171, guid: 1395440f61689df4cb90c469126cb935, type: 3}
       propertyPath: m_TagString
       value: WayPoint
       objectReference: {fileID: 0}
@@ -16438,6 +16777,10 @@ PrefabInstance:
     - target: {fileID: 2522827039053607159, guid: 0373ffdf7e5ca8d44ade2aa113a583d0, type: 3}
       propertyPath: m_Name
       value: WayPoint (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522827039053607159, guid: 0373ffdf7e5ca8d44ade2aa113a583d0, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2522827039053607159, guid: 0373ffdf7e5ca8d44ade2aa113a583d0, type: 3}
       propertyPath: m_TagString
@@ -16568,6 +16911,10 @@ PrefabInstance:
       value: WayPoint (6)
       objectReference: {fileID: 0}
     - target: {fileID: 3213469879742298474, guid: fa92a315f5e4cc74297f626c8c8205f9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3213469879742298474, guid: fa92a315f5e4cc74297f626c8c8205f9, type: 3}
       propertyPath: m_TagString
       value: WayPoint
       objectReference: {fileID: 0}
@@ -16636,6 +16983,10 @@ PrefabInstance:
       value: WayPoint
       objectReference: {fileID: 0}
     - target: {fileID: 5488163414662300988, guid: 08c162f883b6e0c4688b7753efa41ceb, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488163414662300988, guid: 08c162f883b6e0c4688b7753efa41ceb, type: 3}
       propertyPath: m_TagString
       value: WayPoint
       objectReference: {fileID: 0}
@@ -16658,6 +17009,10 @@ PrefabInstance:
     - target: {fileID: 1713214703725991397, guid: 1edc6abc44b089e4da2f1be465619d83, type: 3}
       propertyPath: m_Name
       value: WayPoint (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713214703725991397, guid: 1edc6abc44b089e4da2f1be465619d83, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1713214703725991397, guid: 1edc6abc44b089e4da2f1be465619d83, type: 3}
       propertyPath: m_TagString
@@ -16734,6 +17089,10 @@ PrefabInstance:
     - target: {fileID: 5381477768552030002, guid: 77a8bf0cbca1330428db4bd85fa0892f, type: 3}
       propertyPath: m_Name
       value: WayPoint (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381477768552030002, guid: 77a8bf0cbca1330428db4bd85fa0892f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5381477768552030002, guid: 77a8bf0cbca1330428db4bd85fa0892f, type: 3}
       propertyPath: m_TagString
@@ -16864,6 +17223,10 @@ PrefabInstance:
       value: StartPoint
       objectReference: {fileID: 0}
     - target: {fileID: 3434165805704654322, guid: e9bda1e8089e86e4ab410b39ba9c3adc, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434165805704654322, guid: e9bda1e8089e86e4ab410b39ba9c3adc, type: 3}
       propertyPath: m_TagString
       value: WayPoint
       objectReference: {fileID: 0}
@@ -16890,6 +17253,10 @@ PrefabInstance:
     - target: {fileID: 4706226970146996103, guid: 9ba6d8bf87e76f04a90e12ec3bc6be3f, type: 3}
       propertyPath: m_Name
       value: WayPoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706226970146996103, guid: 9ba6d8bf87e76f04a90e12ec3bc6be3f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4706226970146996103, guid: 9ba6d8bf87e76f04a90e12ec3bc6be3f, type: 3}
       propertyPath: m_TagString
@@ -16974,3 +17341,4 @@ SceneRoots:
   - {fileID: 293748700}
   - {fileID: 1656423074}
   - {fileID: 284553049}
+  - {fileID: 581567755}
