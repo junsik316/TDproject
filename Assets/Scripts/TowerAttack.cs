@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class TowerAttack : MonoBehaviour
 {
-    public UnityEvent<Collider2D> OnShoot;
     [SerializeField] LayerMask checkingLayer;
     public Collider2D[] NearEnemy;
     public float Range;
@@ -16,7 +16,9 @@ public class TowerAttack : MonoBehaviour
     Animator animator;
     public int AttackDamage;
     public GameObject Arrow;
-    [SerializeField]public Collider2D Target;
+    public float angle;
+    public Quaternion rotation;
+    public Collider2D Target;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -46,9 +48,13 @@ public class TowerAttack : MonoBehaviour
                 Debug.Log("Attack");
                 target.Curhealth -= AttackDamage;
                 AttackDelay = 0f;
+                angle = Mathf.Atan2(this.gameObject.transform.position.y - target.gameObject.transform.position.y, this.gameObject.transform.position.x - target.gameObject.transform.position.x) * Mathf.Rad2Deg;
+                this.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+                Quaternion rotaton = Quaternion.Euler(0,0,angle + 90);
+                Instantiate(Arrow, transform.position,rotaton,transform);
                 animator.SetTrigger("Shoot");
-                Instantiate(Arrow);
-                OnShoot?.Invoke(Target);
+      
+                
                 
             }
             AttackDelay += Time.deltaTime;

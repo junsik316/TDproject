@@ -5,6 +5,24 @@ using UnityEngine;
 public class Damagable : MonoBehaviour
 {
     public int Maxhealth;
+    SpriteRenderer sprite;
+    private int IsDamaged
+    {
+        get 
+        {
+            return Curhealth;
+        }
+
+        set
+        {
+            if(Curhealth != value) 
+            {
+                sprite.color = Color.red;
+                
+            }
+            Curhealth = value;
+        }
+    }
     public int Curhealth;
     private void Awake()
     {
@@ -17,6 +35,7 @@ public class Damagable : MonoBehaviour
             Debug.Log("ObjectDie");
             Destroy(gameObject);
         }
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,5 +45,9 @@ public class Damagable : MonoBehaviour
             collision.GetComponent<Damagable>().Curhealth -= Curhealth;
         }
         
+    }
+    private void Changecolor()
+    {
+
     }
 }
