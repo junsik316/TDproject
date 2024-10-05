@@ -208,10 +208,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   NearEnemy: []
-  Range: 0.8
+  Range: 1.5
   AttackTime: 1
-  AttackDamage: 10
   Arrow: {fileID: 5015410357238372202, guid: 38e931d5b3d00b04c8f4caa1b4b1fcd7, type: 3}
   angle: 0
-  rotation: {x: 0, y: 0, z: 0, w: 0}
   Target: {fileID: 0}

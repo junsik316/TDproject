@@ -1,32 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Damagable : MonoBehaviour
 {
-    public int Maxhealth;
+    public float Maxhealth;
     SpriteRenderer sprite;
-    private int IsDamaged
-    {
-        get 
-        {
-            return Curhealth;
-        }
+    public Slider HealthBar;
 
-        set
-        {
-            if(Curhealth != value) 
-            {
-                sprite.color = Color.red;
-                
-            }
-            Curhealth = value;
-        }
-    }
-    public int Curhealth;
+    
+
+    public float Curhealth;
     private void Awake()
     {
         Curhealth = Maxhealth;
+        HealthBar.value = 1f;
     }
     private void FixedUpdate()
     {
@@ -36,6 +26,8 @@ public class Damagable : MonoBehaviour
             Destroy(gameObject);
         }
         
+        HealthBar.value = Curhealth / Maxhealth;
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -45,9 +37,5 @@ public class Damagable : MonoBehaviour
             collision.GetComponent<Damagable>().Curhealth -= Curhealth;
         }
         
-    }
-    private void Changecolor()
-    {
-
     }
 }
