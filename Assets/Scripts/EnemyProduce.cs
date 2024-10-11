@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 
+
 public class WayPoint : MonoBehaviour
 {
     
@@ -27,12 +28,5 @@ public class WayPoint : MonoBehaviour
         }
         
     }
-    void Start()
-    {
-        List<Dictionary<string, object>> WaveData = CSVReader.Read("WaveData");
-       for(int i=0;i < 11;i++)
-        {
-            Debug.Log(WaveData[i]["normal"]);
-        }
-    }
+    
 }

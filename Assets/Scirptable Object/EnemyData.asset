@@ -10,9 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 168c355bfb010494ea7071224bb34219, type: 3}
-  m_Name: SpeedEnemy
+  m_Name: EnemyData
   m_EditorClassIdentifier: 
-  hp: 20
-  speed: 1
-  Enemyname: SpeedEnemy
-  enemy: {fileID: 21300000, guid: 830f414c72c24bc49a7f8674c8716d8c, type: 3}
+  enemy:
+  - hp: 50
+    speed: 0.5
+    Enemyname: Normal
+    image: {fileID: 21300000, guid: f2728ae8e64279c448dd84d9d4d74a2a, type: 3}
+  - hp: 0
+    speed: 0
+    Enemyname: 
+    image: {fileID: 0}
+  - hp: 75
+    speed: 0.2
+    Enemyname: Tank
+    image: {fileID: 21300000, guid: 1ab99f8c7ab087c45a9cefdfd96ce42e, type: 3}

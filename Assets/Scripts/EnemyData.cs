@@ -2,22 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class Enemy
+{
+    public int hp;
+
+    public float speed;
+
+    public string Enemyname;
+
+    public Sprite image;
+
+}
+
+
 [CreateAssetMenu(fileName = "EnemyData",menuName ="Scriptable Object/EnemyData",order =int.MaxValue)]
-
-
 public class EnemyData : ScriptableObject
 {
+    public Enemy[] enemy;
 
-    [SerializeField]
-    private int hp;
-    public int Hp { get { return hp; } }
-    [SerializeField]
-    private float speed;
-    public float Speed { get { return speed; } }
-    [SerializeField]
-    private string Enemyname;
-    public string Name { get { return Enemyname; } }
-    [SerializeField]
-    Sprite enemy;
-    public Sprite Enemy {  get { return enemy; } }
 }
+
+
+
+
+
