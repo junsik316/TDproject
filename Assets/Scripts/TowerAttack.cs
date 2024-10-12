@@ -38,7 +38,7 @@ public class TowerAttack : MonoBehaviour
                     if (short_distance > short_distance2)
                     {
                         short_distance = short_distance2;
-                        Target = col;
+                        if (col != null)  Target = col;
                     }
                 }
 

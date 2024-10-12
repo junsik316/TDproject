@@ -17,10 +17,10 @@ MonoBehaviour:
     speed: 0.5
     Enemyname: Normal
     image: {fileID: 21300000, guid: f2728ae8e64279c448dd84d9d4d74a2a, type: 3}
-  - hp: 0
-    speed: 0
-    Enemyname: 
-    image: {fileID: 0}
+  - hp: 25
+    speed: 0.75
+    Enemyname: Speed
+    image: {fileID: 21300000, guid: 830f414c72c24bc49a7f8674c8716d8c, type: 3}
   - hp: 75
     speed: 0.2
     Enemyname: Tank

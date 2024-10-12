@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 3921655323100785262}
   - component: {fileID: 2024235901112024854}
   - component: {fileID: 5819463324636762527}
-  - component: {fileID: -861133623618377427}
+  - component: {fileID: -4058637112676259059}
   m_Layer: 6
   m_Name: UFO(1)
   m_TagString: Enemy
@@ -381,6 +381,9 @@ MonoBehaviour:
   - {fileID: 6254457773573557123, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
   curNum: 0
   Endpoint: {fileID: 2382046060344117055, guid: b3666d42769641b42aef46914ea3c4d6, type: 3}
+  enemyData: {fileID: 11400000, guid: d9458ec4923bf8b4292502e099c60d32, type: 2}
+  speed: 0.5
+  EnemyType: 0
 --- !u!50 &2024235901112024854
 Rigidbody2D:
   serializedVersion: 4
@@ -443,7 +446,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.22222222
---- !u!114 &-861133623618377427
+--- !u!114 &-4058637112676259059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

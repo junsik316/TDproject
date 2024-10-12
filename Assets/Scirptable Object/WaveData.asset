@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe5474b27862254ea0e4f314b708f1e, type: 3}
+  m_Name: WaveData
+  m_EditorClassIdentifier: 
+  wave:
+  - wave: 1
+    Normal: 1
+    Speed: 1
+    Tank: 1
+  - wave: 2
+    Normal: 3
+    Speed: 1
+    Tank: 1
+  - wave: 3
+    Normal: 4
+    Speed: 1
+    Tank: 1
+  - wave: 4
+    Normal: 5
+    Speed: 2
+    Tank: 2
+  - wave: 5
+    Normal: 5
+    Speed: 4
+    Tank: 1
+  - wave: 6
+    Normal: 5
+    Speed: 3
+    Tank: 3
+  - wave: 7
+    Normal: 5
+    Speed: 4
+    Tank: 4
+  - wave: 8
+    Normal: 7
+    Speed: 3
+    Tank: 3
+  - wave: 9
+    Normal: 7
+    Speed: 5
+    Tank: 5
+  - wave: 10
+    Normal: 10
+    Speed: 7
+    Tank: 7
+  - wave: 11
+    Normal: 12
+    Speed: 8
+    Tank: 8
+  - wave: 12
+    Normal: 12
+    Speed: 9
+    Tank: 9
+  - wave: 13
+    Normal: 13
+    Speed: 10
+    Tank: 10
+  - wave: 14
+    Normal: 13
+    Speed: 11
+    Tank: 10
+  - wave: 15
+    Normal: 13
+    Speed: 11
+    Tank: 11
+  - wave: 12
+    Normal: 12
+    Speed: 9
+    Tank: 9
+  - wave: 12
+    Normal: 12
+    Speed: 9
+    Tank: 9
+  - wave: 12
+    Normal: 12
+    Speed: 9
+    Tank: 9
+  - wave: 12
+    Normal: 12
+    Speed: 9
+    Tank: 9

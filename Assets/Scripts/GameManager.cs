@@ -1,8 +1,10 @@
 using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject Endpoint;
    
     private static GameManager _instance;
     
@@ -34,5 +36,14 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
+        
+    }
+    private void FixedUpdate()
+    {
+        if (!Endpoint)
+        {
+            Debug.Log("GameOVer");
+            
+        }
     }
 }

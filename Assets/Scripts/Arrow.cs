@@ -21,16 +21,21 @@ public class Arrow : MonoBehaviour
     {
         ta = GetComponentInParent<TowerAttack>();
         rb = GetComponent<Rigidbody2D>();
-        target = ta.Target;
+        
         
     }
 
+    private void Start()
+    {
+        target = ta.Target;
+    }
 
     private void FixedUpdate()
     {
         if (target == null) { Destroy(gameObject); }
-        transform.Translate(new Vector3(0, 1, 0) * Speed);
-    
+        if (target != null) transform.position = Vector2.MoveTowards(transform.position, target.gameObject.transform.position, Speed * Time.deltaTime);
+
+
     }
 
 

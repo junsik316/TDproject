@@ -10,6 +10,8 @@ using UnityEngine.Rendering;
 public class GoogleSheetManager : MonoBehaviour
 {
     string data;
+    public WaveData waveData;
+
     const string URL = "https://docs.google.com/spreadsheets/d/1w-CqMV5KHClLrKBKFGD_2ErqBONlNCo58VCce-iauxI/export?format=csv&range=A2:D";
 
     IEnumerator Start()
@@ -30,8 +32,13 @@ public class GoogleSheetManager : MonoBehaviour
             string[] column = row[i].Split(",");
             for(int j=0;j < columnsize;j++)
             {
-                //데이터 sciptable object에 넣기
-                print(column[j]);
+                Wave targetWave = waveData.wave[i];
+
+                 targetWave.wave = int.Parse(column[0]);
+                 targetWave.Normal = int.Parse(column[1]);
+                 targetWave.Speed = int.Parse(column[2]);
+                 targetWave.Tank = int.Parse(column[3]);
+                
             }
         }
     }

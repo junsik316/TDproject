@@ -18,7 +18,9 @@ public class WizradAttack : MonoBehaviour
         {
             if (NearEnemy.Length >= 1)
             {
+                if (NearEnemy[0]==null) return;
                 if(NearEnemy.Length == 1) Target = NearEnemy[0];
+                
                 float short_distance = Vector2.Distance(transform.position, NearEnemy[0].transform.position);
                 foreach (Collider2D col in NearEnemy)
                 {
@@ -26,13 +28,12 @@ public class WizradAttack : MonoBehaviour
                     if (short_distance > short_distance2)
                     {
                         short_distance = short_distance2;
-                        Target = col;
+                        if(col!=null) Target = col;
                     }
                 }
             }
             if (AttackDelay > AttackTime && Target != null)
             {
-                Debug.Log("WA");
                 AttackDelay = 0f;
                 Instantiate(Bullet, transform);
             }
