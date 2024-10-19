@@ -5,9 +5,12 @@ using UnityEngine.UIElements;
 public class GameManager : MonoBehaviour
 {
     public GameObject Endpoint;
-   
+    public GameObject MoneyUI;
+    MoneyUI moneyUI;
     private static GameManager _instance;
-    
+    public static int liveEnemy;
+    public static int money=500;
+    public static float moneyEarn=1f;
     public static GameManager Instance
     {
         get
@@ -36,10 +39,11 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
-        
+        moneyUI = MoneyUI.GetComponent<MoneyUI>();
     }
     private void FixedUpdate()
     {
+        moneyUI.money = money;
         if (!Endpoint)
         {
             Debug.Log("GameOVer");

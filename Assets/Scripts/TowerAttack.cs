@@ -46,7 +46,7 @@ public class TowerAttack : MonoBehaviour
             if (AttackDelay > AttackTime && Target != null)
             {
                 
-                Debug.Log("Attack");
+               
                 
                 AttackDelay = 0f;
                 angle = Mathf.Atan2(this.gameObject.transform.position.y - Target.gameObject.transform.position.y, this.gameObject.transform.position.x - Target.gameObject.transform.position.x) * Mathf.Rad2Deg;

@@ -8,9 +8,11 @@ public class Damagable : MonoBehaviour
 {
     public float Maxhealth;
     SpriteRenderer sprite;
+    public int DM;
     public Slider HealthBar;
     [SerializeField] EnemyData enemyData;
     EnemyMovement enemyMovement;
+    
    
 
 
@@ -22,6 +24,7 @@ public class Damagable : MonoBehaviour
         if (gameObject.tag == "Home") Maxhealth = 1000f;
         else Maxhealth = enemyMovement.EnemyHealth;
         Curhealth = Maxhealth;
+       if(gameObject.tag !="Home") DM = enemyMovement.Drop;
         HealthBar.value = 1f;
     }
     private void FixedUpdate()
@@ -29,7 +32,9 @@ public class Damagable : MonoBehaviour
         if (Curhealth <= 0)
         {
             Debug.Log("ObjectDie");
-            
+            if(gameObject.tag != "Home") GameManager.liveEnemy--;
+            if (gameObject.tag == "Enemy") GameManager.money = GameManager.money + (int)(DM * GameManager.moneyEarn * 10)/10;
+
             Destroy(gameObject);
         }
         
@@ -41,6 +46,7 @@ public class Damagable : MonoBehaviour
         
         if(collision.tag == "Home")
         {
+            GameManager.liveEnemy--;
             collision.GetComponent<Damagable>().Curhealth -= Curhealth;
         }
         

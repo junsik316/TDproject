@@ -12,14 +12,16 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] EnemyData enemyData;
     public float speed;
     public int EnemyType;
+    public int Drop;
+    public float Helath;
     public EnemyData EnemyData { set { enemyData = value; } }
     private void Awake()
     {
         speed = enemyData.enemy[EnemyType].speed;
-        EnemyHealth = enemyData.enemy[EnemyType].hp;
+        EnemyHealth = enemyData.enemy[EnemyType].hp * (int)(Helath * 10) / 10; 
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = enemyData.enemy[EnemyType].image;
-
+        Drop = enemyData.enemy[EnemyType].DropMoney;
         curNum = 0;
         waypointNum = waypoints.Length;
         transform.position = waypoints[curNum].position;

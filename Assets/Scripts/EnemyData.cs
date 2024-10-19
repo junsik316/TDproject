@@ -13,6 +13,8 @@ public class Enemy
 
     public Sprite image;
 
+    public int DropMoney;
+
 }
 
 

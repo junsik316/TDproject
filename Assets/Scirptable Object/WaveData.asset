@@ -89,3 +89,7 @@ MonoBehaviour:
     Normal: 12
     Speed: 9
     Tank: 9
+  - wave: 12
+    Normal: 12
+    Speed: 9
+    Tank: 9
