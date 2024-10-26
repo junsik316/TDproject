@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b4a6a168158b544a1f732322909e31, type: 3}
+  m_Name: WizardData
+  m_EditorClassIdentifier: 
+  towers:
+  - cost: 0
+    damage: 20
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 200
+    damage: 25
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 300
+    damage: 30
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 500
+    damage: 40
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 700
+    damage: 45
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 900
+    damage: 50
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 1200
+    damage: 60
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 1300
+    damage: 65
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 1400
+    damage: 70
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 1400
+    damage: 75
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 1900
+    damage: 80
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 2400
+    damage: 90
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 2900
+    damage: 100
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 4000
+    damage: 120
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 6500
+    damage: 140
+    money: 0
+    MD: 0
+    range: 1
+  - cost: 9000
+    damage: 170
+    money: 0
+    MD: 0
+    range: 1.5

@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7273106616861718141}
   - component: {fileID: 3491468340404025856}
   - component: {fileID: 3160813551977537605}
+  - component: {fileID: -8254885984678063626}
   m_Layer: 7
   m_Name: archer
-  m_TagString: Untagged
+  m_TagString: "\uC544\uCCD0"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 3616022279816070222}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.16, y: 3.91, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5596483303497873988}
@@ -121,6 +122,32 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.255
+--- !u!114 &-8254885984678063626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3616022279816070222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c0d082ce6370e4ea579ce1815935cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 2317193056241246284, guid: 7af40e98ee58463418528a6abb54d254, type: 3}
+  IsUIOpened: 0
+  TowerSprite:
+  - {fileID: 21300000, guid: ee6cca2be99914149b1604bdf36b3844, type: 3}
+  - {fileID: 21300000, guid: 0a0b70cfd52e574419e377163923b946, type: 3}
+  - {fileID: 21300000, guid: d1371205877538447ad2ea473179746d, type: 3}
+  - {fileID: 21300000, guid: 49763f91ff9a68644897226748ef2f76, type: 3}
+  Onclick:
+    m_PersistentCalls:
+      m_Calls: []
+  TowerPoint: {fileID: 0}
+  Sold: 0
+  Arrow: {fileID: 8669463157330937580}
+  TowerData: {fileID: 11400000, guid: d660177760515a64080d96f36df4617d, type: 2}
 --- !u!1 &8669463157330937580
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,7 +176,7 @@ Transform:
   m_GameObject: {fileID: 8669463157330937580}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.066, y: -0.095, z: 0}
+  m_LocalPosition: {x: 0.087, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

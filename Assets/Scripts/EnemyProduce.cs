@@ -24,6 +24,7 @@ public class EnemyProduce : MonoBehaviour
     private WaveUI WaveUI;
     public GameObject UI;
     private float SpawnTime;
+    private int wave;
 
     int CurWave = 0;
 
@@ -40,7 +41,8 @@ public class EnemyProduce : MonoBehaviour
         {
             CurWave++;
             WaveUI.wave = CurWave;
-            GameManager.liveEnemy = WaveData.wave[CurWave].Speed + WaveData.wave[CurWave].Normal + WaveData.wave[CurWave].Tank;
+            if(CurWave <= 29) GameManager.liveEnemy += WaveData.wave[CurWave].Speed + WaveData.wave[CurWave].Normal + WaveData.wave[CurWave].Tank;
+            else GameManager.liveEnemy += WaveData.wave[29].Speed + WaveData.wave[29].Normal + WaveData.wave[29].Tank;
             SpawnTime = 0;
             StartCoroutine("EnemyMake",CurWave);
         }
@@ -51,7 +53,7 @@ public class EnemyProduce : MonoBehaviour
 
   IEnumerator EnemyMake(int Wave)
     {
-        if(Wave > 30) Wave = 30;
+        if(Wave >= 29) Wave = 29;
         for (int i = 1; i <= WaveData.wave[Wave].Normal; i++)
         {
             Em = Enemy.GetComponent<EnemyMovement>();

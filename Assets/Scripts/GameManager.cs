@@ -9,8 +9,17 @@ public class GameManager : MonoBehaviour
     MoneyUI moneyUI;
     private static GameManager _instance;
     public static int liveEnemy;
-    public static int money=500;
+    public static int money
+    {
+        get { return _money; }
+        set {
+            if(value < 0) return;
+            else _money = value; 
+        }
+    }
+    private static int _money = 50000;
     public static float moneyEarn=1f;
+    public  static bool isEnfoceUIOn = false;
     public static GameManager Instance
     {
         get

@@ -17,11 +17,14 @@ public class Arrow : MonoBehaviour
     public int AttackDamage;
     Collider2D target;
     [SerializeField] private float Speed = 0.03f;
+    EnfoceUIOn EnfoceUIOn;
+    [SerializeField] TowerData TowerData;
     private void Awake()
     {
+        EnfoceUIOn = GetComponentInParent<EnfoceUIOn>();
         ta = GetComponentInParent<TowerAttack>();
         rb = GetComponent<Rigidbody2D>();
-        
+        AttackDamage = TowerData.towers[EnfoceUIOn.TowerEnfoced-1].damage; 
         
     }
 
@@ -46,6 +49,7 @@ public class Arrow : MonoBehaviour
         if (target == collision)
         {
             Damagable damagable = target.GetComponent<Damagable>();
+            Debug.Log(AttackDamage);
             damagable.Curhealth -= AttackDamage;
             Destroy(gameObject);
         }

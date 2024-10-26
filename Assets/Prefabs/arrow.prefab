@@ -128,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackDamage: 10
   Speed: 3
+  TowerData: {fileID: 11400000, guid: d660177760515a64080d96f36df4617d, type: 2}
 --- !u!58 &8148281594424413832
 CircleCollider2D:
   m_ObjectHideFlags: 0

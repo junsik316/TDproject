@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 4919510251971172004}
   - component: {fileID: 4082907364291799554}
   - component: {fileID: 8186816667969464334}
+  - component: {fileID: 2178657445378024003}
+  - component: {fileID: 2753359360749455129}
   m_Layer: 7
   m_Name: wizard
-  m_TagString: Untagged
+  m_TagString: "\uB9C8\uBC95\uC0AC"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,3 +107,65 @@ MonoBehaviour:
   AttackTime: 2
   Bullet: {fileID: 3118587740472474772, guid: 68ecc7d3d1ced6847b0216d863ec8f98, type: 3}
   Target: {fileID: 0}
+--- !u!114 &2178657445378024003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6755702829193996795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c0d082ce6370e4ea579ce1815935cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 2317193056241246284, guid: 7af40e98ee58463418528a6abb54d254, type: 3}
+  IsUIOpened: 0
+  TowerSprite:
+  - {fileID: 21300000, guid: 0528d4dc9102ed149af7e44771f55305, type: 3}
+  - {fileID: 21300000, guid: 0528d4dc9102ed149af7e44771f55305, type: 3}
+  - {fileID: 21300000, guid: 847b95d1d89897d43b748c2e92b48efd, type: 3}
+  - {fileID: 21300000, guid: f6165d8f043547b4f89e7568f50dd048, type: 3}
+  Onclick:
+    m_PersistentCalls:
+      m_Calls: []
+  TowerPoint: {fileID: 0}
+  Sold: 0
+  Arrow: {fileID: 0}
+  TowerData: {fileID: 11400000, guid: d7f3ddf52595b6d48a8c4199087cfba6, type: 2}
+  cost: 0
+--- !u!58 &2753359360749455129
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6755702829193996795}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.03350097, y: 0.037688494}
+  serializedVersion: 2
+  m_Radius: 0.75

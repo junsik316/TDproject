@@ -8,6 +8,11 @@ TagManager:
   - WayPoint
   - Home
   - Tower
+  - "\uC544\uCCD0"
+  - "\uB9C8\uBC95\uC0AC"
+  - "\uAE30\uC0AC"
+  - "\uBCD1\uC601"
+  - "\uB300\uC7A5\uC7A5\uC774"
   layers:
   - Default
   - TransparentFX
@@ -17,7 +22,7 @@ TagManager:
   - UI
   - Enemy
   - Tower
-  - 
+  - TowerPoint
   - 
   - 
   - 

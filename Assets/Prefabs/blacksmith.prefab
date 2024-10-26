@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 6783597618731591943}
   - component: {fileID: 6763736372032307435}
   - component: {fileID: 6483347925960984770}
-  m_Layer: 0
+  - component: {fileID: 1842832416487987913}
+  - component: {fileID: -6823547601446929066}
+  m_Layer: 7
   m_Name: blacksmith
-  m_TagString: Untagged
+  m_TagString: "\uB300\uC7A5\uC7A5\uC774"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 9169092785209830609}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.692299, y: 1.2938645, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -98,3 +100,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Money: 5
+--- !u!114 &1842832416487987913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169092785209830609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c0d082ce6370e4ea579ce1815935cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 2317193056241246284, guid: 7af40e98ee58463418528a6abb54d254, type: 3}
+  IsUIOpened: 0
+  TowerSprite:
+  - {fileID: 21300000, guid: 9b3709898e5c84042b230a704fe42fe6, type: 3}
+  - {fileID: 21300000, guid: f502105df72ce8b48aee36645b769b85, type: 3}
+  - {fileID: 21300000, guid: 19ac85e4e5fc18f4f8a4cf7990d3d3b0, type: 3}
+  - {fileID: 21300000, guid: 3795d829efb42354abf57426b21a8b6d, type: 3}
+  Onclick:
+    m_PersistentCalls:
+      m_Calls: []
+  TowerPoint: {fileID: 0}
+  Sold: 0
+  Arrow: {fileID: 0}
+--- !u!58 &-6823547601446929066
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169092785209830609}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.12213897, y: 0.2198476}
+  serializedVersion: 2
+  m_Radius: 2.1874998

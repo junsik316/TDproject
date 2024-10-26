@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 1223032389004158900}
   - component: {fileID: 5665876712816611448}
   - component: {fileID: 7242255474938023048}
-  m_Layer: 0
+  - component: {fileID: 2892037508985573603}
+  - component: {fileID: 6986852857582884580}
+  m_Layer: 7
   m_Name: barrack
-  m_TagString: Untagged
+  m_TagString: "\uBCD1\uC601"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,3 +100,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Earn: 1.1
+--- !u!114 &2892037508985573603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173459545262794192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c0d082ce6370e4ea579ce1815935cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TowerUI: {fileID: 2317193056241246284, guid: 7af40e98ee58463418528a6abb54d254, type: 3}
+  IsUIOpened: 0
+  TowerSprite:
+  - {fileID: 21300000, guid: d57dcbd3f9564554da1784d3bd7b8205, type: 3}
+  - {fileID: 21300000, guid: 42f2b2adf18bafc4084d7e88bfd6dbe3, type: 3}
+  - {fileID: 21300000, guid: 46dc03089741ce4469be9b8a6fe6d715, type: 3}
+  - {fileID: 21300000, guid: df7869db03d42b44fb6bd1adaa53ef4b, type: 3}
+  Onclick:
+    m_PersistentCalls:
+      m_Calls: []
+  TowerPoint: {fileID: 0}
+  Sold: 0
+  Arrow: {fileID: 0}
+--- !u!58 &6986852857582884580
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5173459545262794192}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0000007748604, y: -0.011893392}
+  serializedVersion: 2
+  m_Radius: 0.77

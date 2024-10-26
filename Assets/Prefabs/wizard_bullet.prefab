@@ -161,4 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94ec0bf0c8f54141981161a61e89104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TowerData: {fileID: 11400000, guid: d7f3ddf52595b6d48a8c4199087cfba6, type: 2}
   Damage: 20

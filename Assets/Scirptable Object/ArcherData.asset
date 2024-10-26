@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b4a6a168158b544a1f732322909e31, type: 3}
+  m_Name: ArcherData
+  m_EditorClassIdentifier: 
+  towers:
+  - cost: 0
+    damage: 10
+    money: 0
+    MD: 0
+    range: 1.5
+  - cost: 200
+    damage: 12
+    money: 0
+    MD: 0
+    range: 1.5
+  - cost: 300
+    damage: 15
+    money: 0
+    MD: 0
+    range: 1.5
+  - cost: 500
+    damage: 20
+    money: 0
+    MD: 0
+    range: 1.5
+  - cost: 700
+    damage: 25
+    money: 0
+    MD: 0
+    range: 1.5
+  - cost: 1500
+    damage: 35
+    money: 0
+    MD: 0
+    range: 1.5
+  - cost: 1800
+    damage: 40
+    money: 0
+    MD: 0
+    range: 2
+  - cost: 1900
+    damage: 45
+    money: 0
+    MD: 0
+    range: 2
+  - cost: 2100
+    damage: 50
+    money: 0
+    MD: 0
+    range: 2
+  - cost: 2200
+    damage: 55
+    money: 0
+    MD: 0
+    range: 2
+  - cost: 2300
+    damage: 60
+    money: 0
+    MD: 0
+    range: 2
+  - cost: 2400
+    damage: 65
+    money: 0
+    MD: 0
+    range: 2.3
+  - cost: 2500
+    damage: 70
+    money: 0
+    MD: 0
+    range: 2.3
+  - cost: 3200
+    damage: 75
+    money: 0
+    MD: 0
+    range: 2.3
+  - cost: 3500
+    damage: 80
+    money: 0
+    MD: 0
+    range: 2.3
+  - cost: 5000
+    damage: 100
+    money: 0
+    MD: 0
+    range: 2.3

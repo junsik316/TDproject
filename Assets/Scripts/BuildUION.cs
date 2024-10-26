@@ -24,7 +24,7 @@ public class BuildUION : MonoBehaviour
     private void OnMouseDown()
     {
         Onclick.Invoke(this.transform.position);
-        if(!IsUIOpened)
+        if(!IsUIOpened && !GameManager.isEnfoceUIOn)
         {
             TowerUI.gameObject.SetActive(true);
             IsUIOpened = true;
