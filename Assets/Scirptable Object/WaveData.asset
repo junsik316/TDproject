@@ -73,23 +73,63 @@ MonoBehaviour:
     Normal: 13
     Speed: 11
     Tank: 11
-  - wave: 12
-    Normal: 12
-    Speed: 9
-    Tank: 9
-  - wave: 12
-    Normal: 12
-    Speed: 9
-    Tank: 9
-  - wave: 12
-    Normal: 12
-    Speed: 9
-    Tank: 9
-  - wave: 12
-    Normal: 12
-    Speed: 9
-    Tank: 9
-  - wave: 12
-    Normal: 12
-    Speed: 9
-    Tank: 9
+  - wave: 16
+    Normal: 14
+    Speed: 12
+    Tank: 12
+  - wave: 17
+    Normal: 17
+    Speed: 13
+    Tank: 13
+  - wave: 18
+    Normal: 18
+    Speed: 14
+    Tank: 14
+  - wave: 19
+    Normal: 18
+    Speed: 15
+    Tank: 15
+  - wave: 20
+    Normal: 20
+    Speed: 15
+    Tank: 15
+  - wave: 21
+    Normal: 21
+    Speed: 16
+    Tank: 16
+  - wave: 22
+    Normal: 23
+    Speed: 17
+    Tank: 17
+  - wave: 23
+    Normal: 24
+    Speed: 17
+    Tank: 17
+  - wave: 24
+    Normal: 27
+    Speed: 19
+    Tank: 19
+  - wave: 25
+    Normal: 30
+    Speed: 19
+    Tank: 19
+  - wave: 26
+    Normal: 32
+    Speed: 20
+    Tank: 20
+  - wave: 27
+    Normal: 32
+    Speed: 21
+    Tank: 21
+  - wave: 28
+    Normal: 34
+    Speed: 21
+    Tank: 21
+  - wave: 29
+    Normal: 35
+    Speed: 23
+    Tank: 23
+  - wave: 30
+    Normal: 40
+    Speed: 25
+    Tank: 25

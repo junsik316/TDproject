@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class TowerBuild : MonoBehaviour,IPointerClickHandler
 { 
     private int Types;
+    TowerSell Ts;
     private Vector3 BuildPos;
     public GameObject[] Tower;
     private Quaternion rotation;
@@ -38,6 +39,7 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
         GameManager.money = GameManager.money - Cost[Types];
         Instantiate(Tower[Types], BuildPos,rotation);
         Builded = true;
+        
         BuildPoint.gameObject.SetActive(false);
         buildUI.SetActive(false);
     }

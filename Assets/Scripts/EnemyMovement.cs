@@ -18,7 +18,7 @@ public class EnemyMovement : MonoBehaviour
     private void Awake()
     {
         speed = enemyData.enemy[EnemyType].speed;
-        EnemyHealth = enemyData.enemy[EnemyType].hp * (int)(Helath * 10) / 10; 
+        EnemyHealth = enemyData.enemy[EnemyType].hp * (int)(Helath * 10) / 100 + enemyData.enemy[EnemyType].hp; 
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = enemyData.enemy[EnemyType].image;
         Drop = enemyData.enemy[EnemyType].DropMoney;

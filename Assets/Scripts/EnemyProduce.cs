@@ -51,12 +51,13 @@ public class EnemyProduce : MonoBehaviour
 
   IEnumerator EnemyMake(int Wave)
     {
+        if(Wave > 30) Wave = 30;
         for (int i = 1; i <= WaveData.wave[Wave].Normal; i++)
         {
             Em = Enemy.GetComponent<EnemyMovement>();
 
             Em.EnemyType = 0;
-            Em.Helath = Mathf.Sqrt(Wave);
+            Em.Helath = CurWave - 1;
             Instantiate(Enemy);
             yield return new WaitForSeconds(time);
 
@@ -67,7 +68,7 @@ public class EnemyProduce : MonoBehaviour
         {
             Em = Enemy.GetComponent<EnemyMovement>();
             Em.EnemyType = 1;
-            Em.Helath = Mathf.Sqrt(Wave);
+            Em.Helath = CurWave -1;
             Instantiate(Enemy);
             yield return new WaitForSeconds(time);
 
@@ -77,7 +78,7 @@ public class EnemyProduce : MonoBehaviour
         {
             Em = Enemy.GetComponent<EnemyMovement>();
             Em.EnemyType = 2;
-            Em.Helath = Mathf.Sqrt(Wave);
+            Em.Helath = CurWave -1;
             Instantiate(Enemy);
             yield return new WaitForSeconds(time);
             

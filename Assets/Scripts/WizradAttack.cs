@@ -24,6 +24,7 @@ public class WizradAttack : MonoBehaviour
                 float short_distance = Vector2.Distance(transform.position, NearEnemy[0].transform.position);
                 foreach (Collider2D col in NearEnemy)
                 {
+                    if(col == null) continue;
                     float short_distance2 = Vector2.Distance(transform.position, col.transform.position);
                     if (short_distance > short_distance2)
                     {
