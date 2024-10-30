@@ -8,12 +8,13 @@ public class BlackSmith : MonoBehaviour
     public int Money=50;
     private float time;
     EnfoceUIOn enfoceUIOn;
-    [SerializeField] TowerData TowerData;
+    public TowerData TowerData;
     // Start is called before the first frame update
     void Start()
     {
         enfoceUIOn = GetComponent<EnfoceUIOn>();
-        Money = TowerData.towers[enfoceUIOn.TowerEnfoced].money;
+        Debug.Log(enfoceUIOn.TowerEnfoced);
+        this.Money = TowerData.towers[enfoceUIOn.TowerEnfoced-1].money;
     }
 
     private void FixedUpdate()
@@ -21,8 +22,11 @@ public class BlackSmith : MonoBehaviour
         if(time > Cool) 
         {
             time = 0;
+            this.Money = TowerData.towers[enfoceUIOn.TowerEnfoced - 1].money;
             GameManager.money = GameManager.money + (int)(  Money * GameManager.moneyEarn *10)/10;
             Debug.Log("BS");
+            Debug.Log(Money);
+          
         }
         time += Time.deltaTime;
     }

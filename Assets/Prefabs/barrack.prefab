@@ -125,6 +125,8 @@ MonoBehaviour:
   TowerPoint: {fileID: 0}
   Sold: 0
   Arrow: {fileID: 0}
+  TowerData: {fileID: 11400000, guid: 6433bfff0f95c3c41a484991f4a4ab77, type: 2}
+  cost: 0
 --- !u!58 &6986852857582884580
 CircleCollider2D:
   m_ObjectHideFlags: 0

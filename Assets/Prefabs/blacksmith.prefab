@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Money: 5
+  TowerData: {fileID: 11400000, guid: 6f39806de6639c64f8ef188d1399b76e, type: 2}
 --- !u!114 &1842832416487987913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +126,8 @@ MonoBehaviour:
   TowerPoint: {fileID: 0}
   Sold: 0
   Arrow: {fileID: 0}
+  TowerData: {fileID: 11400000, guid: 6f39806de6639c64f8ef188d1399b76e, type: 2}
+  cost: 0
 --- !u!58 &-6823547601446929066
 CircleCollider2D:
   m_ObjectHideFlags: 0

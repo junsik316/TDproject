@@ -10,7 +10,7 @@ public class Tower
 
     public int money;
 
-    public int MD;
+    public float MD;
 
     public float range; 
 }
