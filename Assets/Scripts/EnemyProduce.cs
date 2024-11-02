@@ -4,6 +4,7 @@ using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 
@@ -17,7 +18,7 @@ public class EnemyProduce : MonoBehaviour
     public int[] Type2;
     public int[] Type3;
     public int CurEnemy;
-    public float SpawnCool = 20f;
+    public float SpawnCool = 30f;
     public EnemyData EnemyData;
     public WaveData WaveData;
     private EnemyMovement Em;
@@ -26,20 +27,37 @@ public class EnemyProduce : MonoBehaviour
     private float SpawnTime;
     private int wave;
 
-    int CurWave = 0;
+    int CurWave = 1;
 
     void Awake()
     {
         WaveUI = UI.GetComponent<WaveUI>();
         
     }
+    void OnEnable()
+    {
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SpawnTime = 31f;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 
     void FixedUpdate()
     {
+        if(Damagable.Isdead) { GameManager.GameOver(CurWave); }
         SpawnTime += Time.deltaTime;
         if (SpawnTime > SpawnCool || GameManager.liveEnemy == 0)
         {
-            CurWave++;
+            
             WaveUI.wave = CurWave;
             if(CurWave <= 29) GameManager.liveEnemy += WaveData.wave[CurWave].Speed + WaveData.wave[CurWave].Normal + WaveData.wave[CurWave].Tank;
             else GameManager.liveEnemy += WaveData.wave[29].Speed + WaveData.wave[29].Normal + WaveData.wave[29].Tank;
@@ -85,6 +103,7 @@ public class EnemyProduce : MonoBehaviour
             yield return new WaitForSeconds(time);
             
         }
+        CurWave++;
         yield return null;
     }
         

@@ -12,7 +12,9 @@ public class EnfoceUIOn : MonoBehaviour
     {
         get { return _TowerENfoced; }
         set {
+            if (gameObject.tag == "º´¿µ") Barrak.MoneyIncrease();
             cost = TowerData.towers[TowerEnfoced].cost;
+            if(GameManager.money > cost) CostSum = cost + CostSum;
             _TowerENfoced = value;
             if (value % 5 == 0) Upgrade();
         }
@@ -26,14 +28,17 @@ public class EnfoceUIOn : MonoBehaviour
     SpriteRenderer TowerRenderer;
     private int TowerUpgradecnt;
     public GameObject Arrow;
-    [SerializeField] TowerData TowerData;
+    public TowerData TowerData;
     public int cost;
     TowerAttack TowerAttack;
     WizradAttack WizradAttack;
+    public float CostSum = 50;
+    Barrak Barrak;
 
 
     private void Start()
     {
+        Barrak = GetComponent<Barrak>();    
         TowerRenderer = GetComponent<SpriteRenderer>();
     }
 

@@ -44,6 +44,7 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
         Builded = true;
         BuildPoint.gameObject.SetActive(false);
         buildUI.SetActive(false);
+        GameManager.isEnfoceUIOn = false;
     }
 
     public void OnPointerClick(PointerEventData eventData)

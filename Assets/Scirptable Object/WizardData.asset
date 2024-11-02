@@ -93,3 +93,8 @@ MonoBehaviour:
     money: 0
     MD: 0
     range: 1.5
+  - cost: 9000
+    damage: 170
+    money: 0
+    MD: 0
+    range: 1.5

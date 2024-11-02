@@ -62,3 +62,6 @@ TagManager:
   - name: UI
     uniqueID: 3437752577
     locked: 0
+  - name: Image
+    uniqueID: 1137757439
+    locked: 0

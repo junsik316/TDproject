@@ -16,6 +16,7 @@ public class Quit : MonoBehaviour,IPointerClickHandler
         IsUIOpened = UI.activeSelf;
         if (IsUIOpened)
         {
+            GameManager.isEnfoceUIOn = false;
             UI.gameObject.SetActive(false);
             IsUIOpened = false;
         }

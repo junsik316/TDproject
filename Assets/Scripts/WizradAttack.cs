@@ -11,7 +11,13 @@ public class WizradAttack : MonoBehaviour
     public float AttackTime;
     public GameObject Bullet;
     public Collider2D Target;
-   
+    AudioSource AudioSource;
+
+    private void Awake()
+    {
+       AudioSource = GetComponent<AudioSource>();   
+    }
+
     private void FixedUpdate()
     {
         if (NearEnemy != null && NearEnemy.Length >= 0)
@@ -37,6 +43,7 @@ public class WizradAttack : MonoBehaviour
             {
                 AttackDelay = 0f;
                 Instantiate(Bullet, transform);
+                AudioSource.Play();
             }
             AttackDelay += Time.deltaTime;
         }

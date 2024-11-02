@@ -9,7 +9,7 @@ public class EnForceName : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TextMeshProUGUI.text = transform.parent.parent.parent.tag;
+        TextMeshProUGUI.text = transform.parent.parent.parent.parent.tag;
     }
 
     // Update is called once per frame

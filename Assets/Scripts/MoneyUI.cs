@@ -20,6 +20,6 @@ public class MoneyUI : MonoBehaviour
     void Update()
     {
 
-        TextMeshProUGUI.text = money.ToString();
+        TextMeshProUGUI.text = GameManager.money.ToString();
     }
 }

@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91f87508e27587547afa344ccfc42c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TowerData: {fileID: 11400000, guid: 6433bfff0f95c3c41a484991f4a4ab77, type: 2}
   Earn: 1.1
 --- !u!114 &2892037508985573603
 MonoBehaviour:

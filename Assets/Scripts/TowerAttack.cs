@@ -14,6 +14,7 @@ public class TowerAttack : MonoBehaviour
     private float AttackDelay;
     public float AttackTime;
     Animator animator;
+    AudioSource audioSource;
     
     public GameObject Arrow;
     public float angle;
@@ -22,6 +23,7 @@ public class TowerAttack : MonoBehaviour
    
     private void Awake()
     {
+        audioSource = GetComponent<AudioSource>();  
         animator = GetComponentInChildren<Animator>();
     }
     private void FixedUpdate()
@@ -55,6 +57,7 @@ public class TowerAttack : MonoBehaviour
                 this.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
                 Quaternion rotaton = Quaternion.Euler(0,0,angle + 90);
                 Instantiate(Arrow, transform.position,rotaton,transform);
+                audioSource.Play();
                 animator.SetTrigger("Shoot");
                 
             }

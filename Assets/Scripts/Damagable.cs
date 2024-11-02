@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,9 +13,11 @@ public class Damagable : MonoBehaviour
     public Slider HealthBar;
     [SerializeField] EnemyData enemyData;
     EnemyMovement enemyMovement;
+    AudioSource audioSource;
+    public static bool Isdead = false;
     
    
-
+    
 
     public float Curhealth;
     private void Awake()
@@ -27,13 +30,31 @@ public class Damagable : MonoBehaviour
        if(gameObject.tag !="Home") DM = enemyMovement.Drop;
         HealthBar.value = 1f;
     }
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void FixedUpdate()
     {
         if (Curhealth <= 0)
         {
+            Isdead = true;
             Debug.Log("ObjectDie");
+            if (gameObject.tag == "Home")
+            {
+                
+                Isdead = true;
+               
+            }
             if(gameObject.tag != "Home") GameManager.liveEnemy--;
-            if (gameObject.tag == "Enemy") GameManager.money = GameManager.money + (int)(DM * GameManager.moneyEarn * 10)/10;
+            if (gameObject.tag == "Enemy")
+            {
+                audioSource.Play();
+                GameManager.money = GameManager.money + (int)(DM * GameManager.moneyEarn * 10) / 10;
+                
+            }
 
             Destroy(gameObject);
         }
