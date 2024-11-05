@@ -58,42 +58,42 @@ MonoBehaviour:
     money: 0
     MD: 0
     range: 2
-  - cost: 2200
+  - cost: 2500
     damage: 55
     money: 0
     MD: 0
     range: 2
-  - cost: 2300
+  - cost: 2900
     damage: 60
     money: 0
     MD: 0
     range: 2
-  - cost: 2400
+  - cost: 3500
     damage: 65
     money: 0
     MD: 0
     range: 2.3
-  - cost: 2500
+  - cost: 4500
     damage: 70
     money: 0
     MD: 0
     range: 2.3
-  - cost: 3200
+  - cost: 5000
     damage: 75
     money: 0
     MD: 0
     range: 2.3
-  - cost: 3800
+  - cost: 5700
     damage: 80
     money: 0
     MD: 0
     range: 2.3
-  - cost: 5000
+  - cost: 6500
     damage: 100
     money: 0
     MD: 0
     range: 2.3
-  - cost: 5000
+  - cost: 6500
     damage: 100
     money: 0
     MD: 0

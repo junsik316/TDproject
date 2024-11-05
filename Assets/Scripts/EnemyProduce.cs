@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using Unity.VisualScripting;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,7 +17,7 @@ public class EnemyProduce : MonoBehaviour
     public int[] Type2;
     public int[] Type3;
     public int CurEnemy;
-    public float SpawnCool = 30f;
+    [SerializeField]private float SpawnCool = 30f;
     public EnemyData EnemyData;
     public WaveData WaveData;
     private EnemyMovement Em;
@@ -77,7 +76,7 @@ public class EnemyProduce : MonoBehaviour
             Em = Enemy.GetComponent<EnemyMovement>();
 
             Em.EnemyType = 0;
-            Em.Helath = CurWave - 1;
+            Em.Helath = Mathf.Sqrt(CurWave);
             Instantiate(Enemy);
             yield return new WaitForSeconds(time);
 
@@ -88,7 +87,7 @@ public class EnemyProduce : MonoBehaviour
         {
             Em = Enemy.GetComponent<EnemyMovement>();
             Em.EnemyType = 1;
-            Em.Helath = CurWave -1;
+            Em.Helath = Mathf.Sqrt(CurWave);
             Instantiate(Enemy);
             yield return new WaitForSeconds(time);
 
@@ -98,12 +97,13 @@ public class EnemyProduce : MonoBehaviour
         {
             Em = Enemy.GetComponent<EnemyMovement>();
             Em.EnemyType = 2;
-            Em.Helath = CurWave -1;
+            Em.Helath = Mathf.Sqrt(CurWave);
             Instantiate(Enemy);
             yield return new WaitForSeconds(time);
             
         }
         CurWave++;
+        SpawnTime = 0;
         yield return null;
     }
         

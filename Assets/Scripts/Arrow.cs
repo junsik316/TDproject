@@ -49,7 +49,7 @@ public class Arrow : MonoBehaviour
         if (target == collision)
         {
             Damagable damagable = target.GetComponent<Damagable>();
-            Debug.Log(AttackDamage);
+            
             damagable.Curhealth -= AttackDamage;
             Destroy(gameObject);
         }

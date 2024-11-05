@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlackSmith : MonoBehaviour
 {
-    private float Cool = 15f;
+    private float Cool = 3f;
     public int Money=50;
     private float time;
     EnfoceUIOn enfoceUIOn;
@@ -24,8 +24,7 @@ public class BlackSmith : MonoBehaviour
             time = 0;
             this.Money = TowerData.towers[enfoceUIOn.TowerEnfoced - 1].money;
             GameManager.money = GameManager.money + (int)(  Money * GameManager.moneyEarn *10)/10;
-            Debug.Log("BS");
-            Debug.Log(Money);
+            
           
         }
         time += Time.deltaTime;

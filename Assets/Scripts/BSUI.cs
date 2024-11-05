@@ -17,8 +17,9 @@ public class BSUI : MonoBehaviour
 
     public void UIUpdate()
     {
-        if (GameManager.money - EnfoceUIOn.TowerData.towers[EnfoceUIOn.TowerEnfoced + 1].cost < 0) return;
         if (EnfoceUIOn.TowerEnfoced >= 16) return;
+        if (GameManager.money - EnfoceUIOn.TowerData.towers[EnfoceUIOn.TowerEnfoced + 1].cost < 0) return;
+        
         TextMeshProUGUI.text = EnfoceUIOn.TowerData.towers[EnfoceUIOn.TowerEnfoced].money.ToString();
     }
 }

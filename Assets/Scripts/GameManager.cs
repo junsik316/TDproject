@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
     {
         SetResolution();
         Damagable = Endpoint.GetComponent<Damagable>();
-        money = 50000;
+        money = 1000;
         isEnfoceUIOn = false;
     }
 

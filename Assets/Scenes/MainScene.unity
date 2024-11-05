@@ -18555,7 +18555,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '$1000
+  m_text: '$2000
 
 '
   m_isRightToLeft: 0
@@ -23656,7 +23656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1863419943882687601, guid: 7708b143adbca864a936605740165c32, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6.7920895
+      value: 6.7927547
       objectReference: {fileID: 0}
     - target: {fileID: 2358217050015340584, guid: 7708b143adbca864a936605740165c32, type: 3}
       propertyPath: m_AnchorMax.x
@@ -24469,7 +24469,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: d9458ec4923bf8b4292502e099c60d32, type: 2}
     - target: {fileID: 5065429467272023621, guid: e9bda1e8089e86e4ab410b39ba9c3adc, type: 3}
       propertyPath: SpawnCool
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

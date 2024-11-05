@@ -18,6 +18,7 @@ public class StartButton : MonoBehaviour
     }
     public void startGame()
     {
+        Damagable.Isdead = false;
         LoadingSceneManager.LoadScene("MainScene");
     }
     public void endGame()

@@ -14,7 +14,7 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
     public GameObject BuildPoint;
     private bool Builded = false;
     public GameObject buildUI;
-    private int[] Cost = { 50,100,1000,25,300};
+    private int[] Cost = { 50,100,2000,25,300};
     
     // Start is called before the first frame update
     public void GetBuildTarget(GameObject go)
@@ -36,7 +36,7 @@ public class TowerBuild : MonoBehaviour,IPointerClickHandler
     {
         if (Builded) return;
         //타워 맵에 배치
-        Debug.Log(Types);
+        
         if (GameManager.money - Cost[Types] < 0) return;
         GameManager.money = GameManager.money - Cost[Types];
         

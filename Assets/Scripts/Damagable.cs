@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,8 +39,8 @@ public class Damagable : MonoBehaviour
     {
         if (Curhealth <= 0)
         {
-            Isdead = true;
-            Debug.Log("ObjectDie");
+            
+            
             if (gameObject.tag == "Home")
             {
                 
